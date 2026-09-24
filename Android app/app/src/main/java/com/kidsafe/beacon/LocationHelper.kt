@@ -3,7 +3,7 @@ package com.kidsafe.beacon
 import android.annotation.SuppressLint
 import android.content.Context
 import android.location.Location
-import com.google.android.gms.location.CancellationTokenSource
+import com.google.android.gms.tasks.CancellationTokenSource
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.location.Priority
 import kotlinx.coroutines.suspendCancellableCoroutine
